@@ -2,26 +2,26 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
-	background-color: #f0f0f0;
+	height: 80vh;
 	margin: 0;
 }
+
 .board {
 	display: grid;
 	grid-template-columns: repeat(3, 100px);
 	grid-template-rows: repeat(3, 100px);
-	gap: 5px;
+	gap: 6px;
 	background-color: black;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3), -2px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .cell {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 2rem;
-	background-color: #fff;
+	font-size: 64px;
+	background-color: #ffffff;
 	cursor: pointer;
-	transition: background-color 0.3s;
 }
 
 .cell:hover {
